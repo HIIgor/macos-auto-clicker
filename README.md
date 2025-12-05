@@ -111,6 +111,7 @@ All the auto clickers out there were either really outdated, old, buggy and/or h
 - 🇬🇧 English (British)
 - 🇩🇪 German (Deutsch)
 - 🇪🇸 Spanish (Español - Latin America)
+- 🇨🇳 Chinese, Simplified (简体中文)
 
 **Missing your language?** We'll happily accept PR's to add support for it!
 
