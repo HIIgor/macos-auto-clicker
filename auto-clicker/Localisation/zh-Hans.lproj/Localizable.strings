@@ -1,0 +1,130 @@
+"permissions_help_title"             = "需要权限 🔐";
+"permissions_help_first_paragraph"   = "macOS 需要此应用拥有辅助功能权限才能按键或点击按钮。";
+"permissions_help_second_paragraph"  = "macOS 应该已经提示您授予这些权限，如果没有，这里有一个方便的按钮可以带您去设置：";
+"permissions_help_open_sys_pref_btn" = "打开系统偏好设置";
+"permissions_help_unlock_note"       = "授予权限后，应用将在几秒钟内自动解锁。";
+
+"about_about" = "关于";
+"about_url" = "https://github.com/othyn/macos-auto-clicker";
+"about_url_short" = "github.com/othyn/macos-auto-clicker";
+
+"main_window_comma"                   = "，";
+"main_window_full_stop"               = "。";
+"main_window_every"                   = "每";
+"main_window_press"                   = "按下";
+"main_window_time"                    = "次";
+"main_window_times"                   = "次";
+"main_window_repeat"                  = "重复";
+"main_window_wait"                    = "等待";
+"main_window_second"                  = "秒";
+"main_window_seconds"                 = "秒";
+"main_window_before_starting"         = "后开始";
+"main_window_stop_mousemove"          = "并且";
+"main_window_stop_mousemove_end"      = "当鼠标移动";
+"main_window_stop_mousemove_pixel"    = "像素时停止";
+"main_window_start_btn"               = "开始";
+"main_window_stop_btn"                = "停止";
+"main_window_stat_box_next_press_at"  = "下次按下时间";
+"main_window_stat_box_final_press_at" = "最后按下时间";
+"main_window_repo_vanity"             = "由 Othyn 用 ♥️ 制作";
+"main_window_to"                      = "至";
+
+"interval_mode" = "";
+"static" = "固定";
+"range" = "范围";
+
+"duration_milliseconds"        = "毫秒";
+"duration_seconds"             = "秒";
+"duration_minutes"             = "分钟";
+"duration_hours"               = "小时";
+"duration_modal_cancel_button" = "取消";
+
+"mousemove_enabled"             = "停止";
+"mousemove_disabled"            = "继续";
+"mousemove_modal_cancel_button" = "取消";
+
+"key_listener_modal_press_prompt"         = "按下您想要的按键...";
+"key_listener_modal_dismiss_key_prompt"   = "完成后按住 Esc 键。";
+"key_listener_modal_dismiss_key_override" = "要使用 Esc 键本身，请按两次。";
+
+"settings_general"            = "通用";
+"settings_shortcuts"          = "快捷键";
+"settings_window"             = "窗口";
+"settings_appearance"         = "外观";
+"settings_notifications"      = "通知";
+
+"settings_general_interval_mode_title" = "点击间隔模式";
+"settings_general_interval_mode_help"  = "选择固定间隔（点击之间的时间固定）或范围间隔（最小/最大值之间的随机时间）。";
+
+"settings_general_app_should_quit_on_close_title" = "生命周期";
+"settings_general_app_should_quit_on_close"       = "关闭主窗口时退出应用";
+"settings_general_app_should_quit_on_close_help"  = "当应用的主窗口关闭时，退出应用，而不是像 macOS 默认行为那样在后台保持运行。";
+
+"settings_general_launch_on_login_title" = "登录时启动";
+"settings_general_launch_on_login"       = "macOS 用户登录时启动应用";
+"settings_general_launch_on_login_help"  = "当您登录 macOS 账户时，自动运行自动点击器。";
+
+"settings_general_menu_bar_show_icon_title" = "菜单栏";
+"settings_general_menu_bar_show_icon"       = "显示菜单栏图标";
+"settings_general_menu_bar_show_icon_help"  = "始终在 macOS 菜单栏中显示图标，以便访问应用和快速访问功能。";
+
+"settings_general_menu_bar_show_dynamic_icon"      = "显示动态菜单栏图标";
+"settings_general_menu_bar_show_dynamic_icon_help" = "菜单栏图标将根据自动点击器的状态更新。\n橙色 = 倒计时开始\n绿色 = 自动点击器运行中";
+
+"settings_general_menu_bar_hide_dock"      = "隐藏程序坞图标";
+"settings_general_menu_bar_hide_dock_help" = "应用将从菜单栏运行，而不是在程序坞中运行。";
+
+"settings_keyboard_shortcuts_title" = "全局";
+"settings_keyboard_shortcuts_start" = "开始自动点击";
+"settings_keyboard_shortcuts_stop"  = "停止自动点击";
+"settings_keyboard_shortcuts_help"  = "启动和停止自动点击功能的全局快捷键。";
+
+"settings_mouse_movement_title"            = "鼠标激活";
+"settings_mouse_movement_help"             = "当窗口未聚焦时，开始/停止将自动激活。";
+"settings_mouse_movement_start_on_move"    = "鼠标移动时开始自动点击";
+"settings_mouse_movement_stop_on_move"     = "鼠标移动时停止自动点击";
+"settings_mouse_movement_threshold_title"  = "阈值";
+"settings_mouse_movement_threshold_help"   = "触发鼠标激活操作所需的鼠标移动距离。";
+"settings_mouse_movement_threshold_pixels" = "像素";
+
+"settings_general_notify_title"     = "通知当...";
+"settings_general_notify_on_start"  = "... 自动点击开始";
+"settings_general_notify_on_finish" = "... 自动点击停止";
+
+"settings_window_stay_ontop_title" = "可见性";
+"settings_window_stay_ontop"       = "始终保持主窗口在最前";
+"settings_window_stay_ontop_help"  = "当您点击其他窗口时，这定义了窗口是应该消失在其他窗口后面（macOS 默认行为），还是保持在所有其他窗口之上。";
+
+"help_commands_request_a_feature" = "请求功能...";
+"help_commands_report_a_bug"      = "报告问题...";
+
+"menu_bar_item_start"            = "立即开始";
+"menu_bar_item_stop"             = "立即停止";
+"menu_bar_item_hide_show_show"   = "显示";
+"menu_bar_item_hide_show_hide"   = "隐藏";
+"menu_bar_item_preferences"      = "偏好设置...";
+"menu_bar_item_about"            = "关于...";
+"menu_bar_item_quit"             = "退出";
+
+"colour_black"  = "黑色";
+"colour_blue"   = "蓝色";
+"colour_brown"  = "棕色";
+"colour_cyan"   = "青色";
+"colour_gray"   = "灰色";
+"colour_green"  = "绿色";
+"colour_indigo" = "靛青色";
+"colour_mint"   = "薄荷色";
+"colour_orange" = "橙色";
+"colour_pink"   = "粉色";
+"colour_purple" = "紫色";
+"colour_red"    = "红色";
+"colour_teal"   = "青色";
+"colour_white"  = "白色";
+"colour_yellow" = "黄色";
+
+// NumberField (Legacy)
+"min: %lld, max: %lld" = "最小: %lld, 最大: %lld";
+
+"left_mouse_click" = "左键";
+"right_mouse_click" = "右键";
+"middle_mouse_click" = "中键";

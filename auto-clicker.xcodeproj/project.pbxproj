@@ -120,7 +120,9 @@
 		B5BCE804287BFB5A00B739AD /* Color+ExpressibleByStringLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+ExpressibleByStringLiteral.swift"; sourceTree = "<group>"; };
 		B5BCE808287C2F4D00B739AD /* SmallText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallText.swift; sourceTree = "<group>"; };
 		B5BCE80B287C343900B739AD /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B5BCE80B287C343900B739AE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B5BCE80E287C344200B739AD /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "en-GB"; path = "en-GB.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
+		B5BCE80E287C344200B739AE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		B5BCE810287C38ED00B739AD /* CGVector+DefaultsSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGVector+DefaultsSerializable.swift"; sourceTree = "<group>"; };
 		B5BF093F2883230D008092D9 /* MenuBarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarService.swift; sourceTree = "<group>"; };
 		B5BF094228832A4E008092D9 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
@@ -468,6 +470,7 @@
 			knownRegions = (
 				Base,
 				"en-GB",
+				"zh-Hans",
 			);
 			mainGroup = B53BDC43264BED93001F8E57;
 			packageReferences = (
@@ -636,6 +639,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B5BCE80B287C343900B739AD /* en-GB */,
+				B5BCE80B287C343900B739AE /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -644,6 +648,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B5BCE80E287C344200B739AD /* en-GB */,
+				B5BCE80E287C344200B739AE /* zh-Hans */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";
